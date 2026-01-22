@@ -10,6 +10,63 @@
     box-sizing: border-box;
 }
 
+/* header style */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-color {
+    color: #FF5400;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-color {
+    color: #FF5400 !important;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* banner style */
+
 #banner {
     height: 760px;
     background-image: url(../assets/img/hero-bg.png);
