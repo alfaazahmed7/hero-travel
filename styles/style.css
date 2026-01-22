@@ -185,6 +185,12 @@
     height: 300px;
 }
 
+.destination-container .destination-card:nth-child(3) img,
+.destination-container .destination-card:nth-child(4) img,
+.destination-container .destination-card:nth-child(5) img {
+    height: 286px;
+}
+
 .destination-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
