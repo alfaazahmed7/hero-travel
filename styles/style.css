@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.font-mulish {
+    font-family: "Mulish", sans-serif;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,12 +11,12 @@
 }
 
 #banner {
-    min-height: 760px;
-    background-image: url(../header/hero-bg.png);
+    height: 760px;
+    background-image: url(../assets/img/hero-bg.png);
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding: 70px 0 310px 0;
+    padding: 44px 0 310px 0;
 }
 
 .banner-content {
@@ -38,4 +44,34 @@
     position: absolute;
     top: 0;
     left: 54%;
+}
+
+.banner-description {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.banner-description h2 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.banner-description p {
+    font-size: 1.25rem;
+    color: #ffffff64;
+    font-weight: 600;
+}
+
+.primary-btn {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(#43ed0a, #03bcdcbb);
+    border: none;
+    margin-top: 1.25rem;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0.5rem;
 }
